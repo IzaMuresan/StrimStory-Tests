@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 15 12:41:17 PKT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122544 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_11_Demographics_Search_by_License()'><b>PS_11_Demographics_Search_by_License</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_02_Navigate_To_Provider_Stewardship()'><b>PS_02_Navigate_To_Provider_Stewardship</b><br>Test class: Test_Scenarios.SearchScenarios<br/>
+<a href="#Output-232886115" onClick='toggleBox("Output-232886115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232886115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232886115">
+Provider card is Clicked <br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_12_Search_by_linkID()'><b>PS_12_Search_by_linkID</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>9</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_01_User_Login()'><b>PS_01_User_Login</b><br>Test class: Test_Scenarios.SearchScenarios<br/>
+<a href="#Output-1249337777" onClick='toggleBox("Output-1249337777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1249337777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1249337777">
+User Name is : stella-test-user-stella-provider-dev-link-5<br/>
+Password is :  aqiyn2T8a5CgrsGF!<br/>
+Login Button is Clicked <br/>
+This is current Url: https://staging-verato.stella-apps.com/auth/login/verification<br/>
+First mail is clicked <br/>
+The Verification Token is: T37 0IL<br/>
+https://www.mailinator.com/v4/public/inboxes.jsp?msgid=stella-test-user-stella-provider-dev-link-5-1660549286-262633345<br/>
+https://staging-verato.stella-apps.com/auth/login/verification<br/>
+Verification Key is Entered<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_05_Demographics_Search_by_address()'><b>PS_05_Demographics_Search_by_address</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>15</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_13_Search_by_Source_and_NativeID()'><b>PS_13_Search_by_Source_and_NativeID</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>39</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_07_Demographics_Search_by_Phone()'><b>PS_07_Demographics_Search_by_Phone</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_08_Demographics_Search_by_Credentials()'><b>PS_08_Demographics_Search_by_Credentials</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_04_Demographics_Search_by_name()'><b>PS_04_Demographics_Search_by_name</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>6</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_09_Demographics_Search_by_Speciality()'><b>PS_09_Demographics_Search_by_Speciality</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_06_Demographics_Search_by_NPI()'><b>PS_06_Demographics_Search_by_NPI</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_03_Navigate_To_Search_Tab()'><b>PS_03_Navigate_To_Search_Tab</b><br>Test class: Test_Scenarios.SearchScenarios<br/>
+<a href="#Output-869005911" onClick='toggleBox("Output-869005911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-869005911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-869005911">
+Search Tab Is Clicked<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+<tr>
+<td title='Test_Scenarios.SearchScenarios.PS_10_Demographics_Search_by_ZipCode()'><b>PS_10_Demographics_Search_by_ZipCode</b><br>Test class: Test_Scenarios.SearchScenarios</td>
+<td></td>
+<td>3</td>
+<td>Test_Scenarios.SearchScenarios@54dcbb9f</td></tr>
+</table><p>
+</body>
+</html>

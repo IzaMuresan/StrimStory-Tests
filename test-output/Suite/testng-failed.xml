@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test_Scenarios.SearchScenarios">
+        <methods>
+          <include name="PS_07_Demographics_Search_by_Phone"/>
+          <include name="PS_08_Demographics_Search_by_Credentials"/>
+          <include name="PS_09_Demographics_Search_by_Speciality"/>
+          <include name="PS_10_Demographics_Search_by_ZipCode"/>
+          <include name="PS_11_Demographics_Search_by_License"/>
+          <include name="PS_06_Demographics_Search_by_NPI"/>
+          <include name="PS_13_Search_by_Source_and_NativeID"/>
+          <include name="PS_04_Demographics_Search_by_name"/>
+          <include name="PS_05_Demographics_Search_by_address"/>
+          <include name="PS_01_User_Login"/>
+          <include name="aftertest"/>
+          <include name="PS_12_Search_by_linkID"/>
+          <include name="PS_03_Navigate_To_Search_Tab"/>
+        </methods>
+      </class> <!-- Test_Scenarios.SearchScenarios -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

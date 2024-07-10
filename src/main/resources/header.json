@@ -1,0 +1,49 @@
+{
+    "creditUserContext": {
+      "user": {
+        "id": "araxid",
+        "username": "araxid",
+        "enterpriseId": "0",
+        "organizationId": "0",
+        "email": "araxid",
+        "roles": [],
+        "deactivated": false,
+        "customerId": "0",
+        "firstName": "araxid",
+        "lastName": "verato",
+        "ssoContext": {
+          "envCount": 1
+        }
+      },
+      "enterprise": {
+        "id": "0",
+        "customerId": "0",
+        "shortName": "verato",
+        "longName": "0"
+      },
+      "passwordResetRequired": false
+    },
+    "identityUserContext": {
+      "user": "stella-test-user-3",
+      "password": "2bb18d36df15bb4e7b2db4ac04e08909:fa153393d41c1253eba89636b0c889984a75976e1f033b52ccc502377348e025",
+      "authToken": "",
+      "permissions": {
+        "permissionMap": {
+          "verato:ui-maskssn": [
+            "r"
+          ],
+          "verato:ui-maskweak": [
+            "r"
+          ],
+          "verato:verato": [
+            "*"
+          ],
+          "verato:umpi": [
+            "*"
+          ]
+        },
+        "empty": true
+      },
+      "customerId": "stella-link"
+    }
+  }
