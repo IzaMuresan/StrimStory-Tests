@@ -1,2 +1,1 @@
-# STRIMSTORY's End to End Demo Scripts
-
+# STRIMSTORY Test [IT School Project]
